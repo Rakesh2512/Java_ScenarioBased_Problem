@@ -18,7 +18,7 @@ public class Main {
                 store.getWordCountFromBook("Lord of the Rings", "ring"));
 
         try {
-            System.out.println(store.getWordCountFromBook("JK", "Harry"));
+            System.out.println(store.getWordCountFromBook("Harry Potter", "Harry"));
         } catch (Exception e) {
             System.out.println("Exception: " + e.getMessage());
         }
